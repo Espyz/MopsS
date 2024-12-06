@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Regular.otf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: JejuGothic;
+    src: url("../fonts/Inter-Regular.otf");
+    font-weight: 400;
+}
+
+header {
+    position: sticky;
+    background-color: rgb(133, 42, 62);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.label, .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+.logo {
+    width: 70px;
+}
+
+header p {
+    font-family: Inter serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: rgb(255, 142, 49);
+    width: max-content;
+}
+
+.nav {
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 142, 49);
+    font-family: Inter serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.img-label {
+    width: 35px;
+    cursor: pointer;
+}
+
+.finder {
+    background-color: rgb(255, 236, 175);
+    border-radius: 15px;
+    width: 243px;
+    height: 40px;
+    font-family: JejuGothic serif;
+    font-size: 24px;
+    line-height: 26px;
+    color: black;
+    text-align: justify;
+}
+
+#logo {
+    cursor: pointer;
+}
