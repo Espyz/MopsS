@@ -10,13 +10,13 @@
     font-weight: 400;
 }
 
-header {
+header, footer {
     position: sticky;
     background-color: rgb(133, 42, 62);
     display: flex;
     flex-wrap: nowrap;
+    height: 118px;
 }
-
 
 .label, .nav {
     display: flex;
@@ -30,7 +30,7 @@ header {
     width: 70px;
 }
 
-header p {
+header p, footer p {
     font-family: Inter serif;
     font-size: 20px;
     line-height: 24px;

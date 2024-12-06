@@ -16,8 +16,10 @@ function endInput() {
 }
 
 const logo = document.getElementById('logo');
+const bottomLogo = document.getElementById('logo-footer');
 
 logo.addEventListener('click', goToHome);
+bottomLogo.addEventListener('click', goToHome);
 
 function goToHome(event) {
     const mainFile = event.view.location.pathname.split('/').at(-1);
