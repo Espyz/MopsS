@@ -1,7 +1,98 @@
+@font-face {
+    font-family: JejuGothic;
+    src: url("../fonts/Inter-Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Godzilla;
+    src: url("../fonts/Godzilla.ttf");
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.center {
+    justify-content: center;
+}
+
 body {
     margin: 0;
+    padding-bottom: 118px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .col-4 {
     width: 33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 137px;
+}
+
+.main-msg {
+    font-family: JejuGothic serif;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 26px;
+    width: 670px;
+    height: 315px;
+}
+
+.mops-img {
+    width: 470px;
+    height: 315px;
+}
+
+.news-img {
+    width: 48px;
+    height: 48px;
+}
+
+.news {
+    font-family: Godzilla serif;
+    font-size: 36px;
+}
+
+.empty-row {
+    height: 80px;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+}
+
+.news-table {
+    grid-gap: 70px 0;
+    grid-template-columns: repeat(auto-fit, 50%);
+}
+
+.news-block {
+    width: 567px;
+    border-radius: 40px 40px 0 40px;
+    height: 273px;
+    margin: auto;
+}
+
+.news-block img {
+    width: 567px;
+    height: 273px;
 }

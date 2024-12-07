@@ -18,6 +18,13 @@ header, footer {
     height: 118px;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .label, .nav {
     display: flex;
     align-items: center;
@@ -70,4 +77,11 @@ header p, footer p {
 
 #logo {
     cursor: pointer;
+}
+
+body {
+    position: relative;
+    background-image: url("../images/background.png ");
+    background-size: 100vw;
+    min-height: 100vh;
 }
