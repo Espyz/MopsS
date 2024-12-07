@@ -14,6 +14,10 @@
     display: flex;
 }
 
+.right {
+    justify-content: right;
+}
+
 .flex.center {
     justify-content: center;
 }
@@ -95,4 +99,22 @@ main {
 .news-block img {
     width: 567px;
     height: 273px;
+}
+
+.news-button {
+    font-family: Godzilla serif;
+    font-size: 36px;
+    text-align: left;
+    width: 305px;
+    height: 80px;
+    background-color: rgb(133, 42, 62);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 142, 49);
+    letter-spacing: 0;
+}
+
+.mops-img-2 {
+    width: 100%;
 }
