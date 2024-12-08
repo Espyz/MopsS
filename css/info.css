@@ -1,0 +1,14 @@
+.row {
+    gap: 33px;
+    flex-wrap: nowrap;
+}
+
+.mops-text {
+    display: flex;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: justify;
+    letter-spacing: 0;
+    margin: 2px 0;
+    align-items: center;
+}
