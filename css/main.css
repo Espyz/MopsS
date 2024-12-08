@@ -48,7 +48,7 @@ p {
 }
 
 main {
-    margin: 137px;
+    margin: min(5%, 137px) min(10%, 137px);
 }
 
 .main-msg {
