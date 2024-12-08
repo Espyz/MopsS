@@ -77,7 +77,7 @@ main {
 }
 
 .empty-row {
-    height: 80px;
+    height: min(4vw, 80px);
     width: 100%;
 }
 
