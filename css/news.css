@@ -1,0 +1,44 @@
+.news-full {
+    width: 60%;
+    margin: auto;
+}
+
+.news-table-full {
+    grid-gap: 70px 0;
+}
+
+.pagination {
+    justify-content: center;
+    gap: 34px;
+    margin: 40px;
+}
+
+.page-num {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 142, 49);
+    font-family: JejuGothic serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.dots {
+    display: flex;
+    /*align-items: ;*/
+    justify-content: center;
+    color: rgb(133, 42, 62);
+    font-size: 40px;
+}

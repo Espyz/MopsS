@@ -18,8 +18,9 @@
     justify-content: right;
 }
 
-.flex.center {
+.center {
     justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -72,6 +73,7 @@ main {
 .news {
     font-family: Godzilla serif;
     font-size: 36px;
+    color: rgb(255, 142, 49);
 }
 
 .empty-row {
@@ -117,4 +119,12 @@ main {
 
 .mops-img-2 {
     width: 100%;
+}
+
+.max-content {
+    width: max-content;
+}
+
+.q-ma-md {
+    margin: 20px;
 }
