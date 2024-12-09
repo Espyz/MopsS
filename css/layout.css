@@ -139,7 +139,7 @@ body {
 }
 
 .burger-container {
-    width: 50%;
+    width: 30%;
     display: none;
     flex-wrap: wrap;
     justify-content: right;
@@ -185,7 +185,7 @@ body {
     }
 
     .label {
-        width: 50%;
+        width: 70%;
         justify-content: center;
         gap: 12px;
     }
