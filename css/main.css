@@ -10,10 +10,6 @@
     font-weight: 400;
 }
 
-.flex {
-    display: flex;
-}
-
 .right {
     justify-content: right;
 }
@@ -40,6 +36,10 @@ body {
 
 .col-6 {
     width: 50%;
+}
+
+.full-width {
+    width: 100%;
 }
 
 p {
