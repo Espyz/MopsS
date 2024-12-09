@@ -180,7 +180,7 @@ body {
         display: flex;
     }
 
-    .found, .nav {
+    header .found, header .nav {
         display: none;
     }
 
@@ -191,21 +191,7 @@ body {
     }
 }
 
-@media (max-width: 400px) {
-    .finder {
-        font-size: 14px;
-        line-height: 15px;
-        height: 34px;
-        width: 158px;
-    }
-
-    .label p {
-        font-size: 16px;
-        line-height: 20px;
-    }
-}
-
-@media (max-width: 755px) {
+@media (max-width: 820px) {
     .footer1 {
         display: flex;
     }
@@ -220,5 +206,36 @@ body {
 
     footer .found {
         display: none;
+    }
+
+    footer p, footer .link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+    footer .found1 {
+        margin: 0;
+    }
+
+    .footer, .footer1 {
+        height: 60px;
+    }
+}
+
+@media (max-width: 400px) {
+    .finder {
+        font-size: 14px;
+        line-height: 15px;
+        height: 34px;
+        width: 158px;
+    }
+
+    .label p {
+        font-size: 16px;
+        line-height: 20px;
     }
 }
